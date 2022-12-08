@@ -37,4 +37,5 @@ main() -> int
     std::cout << "Part 2: " << sums_vec[0] + sums_vec[1] + sums_vec[2] << std::endl;
 
     file.close();
+    return 0;
 }
