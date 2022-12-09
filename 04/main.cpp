@@ -7,8 +7,7 @@
 #include <regex>
 #include <vector>
 
-auto
-main() -> int
+auto main() -> int
 {
     auto file = std::ifstream();
     file.open("04/input.txt");

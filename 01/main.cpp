@@ -7,8 +7,7 @@
 #include <ranges>
 #include <vector>
 
-auto
-main() -> int
+auto main() -> int
 {
     auto file = std::ifstream();
     file.open("01/input.txt");

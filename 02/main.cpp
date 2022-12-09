@@ -13,8 +13,7 @@ enum class Shape
     Scissors,
 };
 
-auto
-round_score(std::pair<Shape, Shape> &round) -> int
+auto round_score(std::pair<Shape, Shape> &round) -> int
 {
     using enum Shape;
     int base_score;
@@ -35,8 +34,7 @@ round_score(std::pair<Shape, Shape> &round) -> int
     return base_score;
 }
 
-auto
-pick_shape(std::pair<Shape, Shape> &round) -> Shape
+auto pick_shape(std::pair<Shape, Shape> &round) -> Shape
 {
     using enum Shape;
     auto int_shape = static_cast<int>(round.first);
@@ -49,8 +47,7 @@ pick_shape(std::pair<Shape, Shape> &round) -> Shape
     }
 }
 
-auto
-main() -> int
+auto main() -> int
 {
     auto file = std::ifstream();
     file.open("02/input.txt");

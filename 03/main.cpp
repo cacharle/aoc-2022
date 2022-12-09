@@ -7,8 +7,7 @@
 #include <ranges>
 #include <vector>
 
-auto
-item_score(char c)
+auto item_score(char c)
 {
     assert(std::isalpha(c));
     if (std::islower(c))
@@ -17,8 +16,7 @@ item_score(char c)
         return c - 'A' + 27;
 }
 
-auto
-main() -> int
+auto main() -> int
 {
     auto file = std::ifstream();
     file.open("03/input.txt");
