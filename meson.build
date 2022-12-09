@@ -1,0 +1,4 @@
+project('aoc-2022', 'cpp', default_options : ['cpp_std=c++20'])
+executable('01', '01/main.cpp')
+executable('02', '02/main.cpp')
+executable('03', '03/main.cpp')

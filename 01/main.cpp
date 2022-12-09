@@ -11,7 +11,7 @@ auto
 main() -> int
 {
     auto file = std::ifstream();
-    file.open("input.txt");
+    file.open("01/input.txt");
     assert(file.is_open());
     auto calories = std::vector<std::vector<int>>();
     calories.push_back(std::vector<int>());
