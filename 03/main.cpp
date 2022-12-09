@@ -69,7 +69,5 @@ auto main() -> int
         total += item_score(common2.front());
     }
     std::cout << "Part 2: " << total << std::endl;
-
-    file.close();
     return 0;
 }

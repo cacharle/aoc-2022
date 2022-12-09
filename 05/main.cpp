@@ -96,7 +96,5 @@ auto main() -> int
     for (auto stack : stacks)
         std::cout << stack.back();
     std::cout << std::endl;
-
-    file.close();
     return 0;
 }

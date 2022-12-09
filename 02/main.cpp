@@ -91,7 +91,5 @@ auto main() -> int
         total_score += score;
     }
     std::cout << "Part 2: " << total_score << std::endl;
-
-    file.close();
     return 0;
 }

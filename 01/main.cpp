@@ -33,7 +33,5 @@ auto main() -> int
     std::ranges::sort(sums_vec, std::ranges::greater());
     std::cout << "Part 1: " << sums_vec.front() << std::endl;
     std::cout << "Part 2: " << sums_vec[0] + sums_vec[1] + sums_vec[2] << std::endl;
-
-    file.close();
     return 0;
 }

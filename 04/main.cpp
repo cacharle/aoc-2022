@@ -60,7 +60,5 @@ auto main() -> int
     auto overlapping_pairs = std::vector<std::pair<std::pair<int, int>, std::pair<int, int>>>();
     std::ranges::copy(overlapping_pairs_view, std::back_inserter(overlapping_pairs));
     std::cout << "Part 2: " << overlapping_pairs.size() << std::endl;
-
-    file.close();
     return 0;
 }
