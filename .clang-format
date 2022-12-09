@@ -10,12 +10,12 @@ IndentWidth: 4
 TabWidth: 4
 UseTab: Never
 
-ColumnLimit: 85
+ColumnLimit: 100
 
 DerivePointerAlignment: false
 PointerAlignment: Right
 
-AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveDeclarations: None
 AlignConsecutiveAssignments: None
 AlignConsecutiveBitFields: Consecutive
 # AlignArrayOfStructures: Left  # clang-format 13 only

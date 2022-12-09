@@ -26,11 +26,10 @@ main() -> int
         calories.back().push_back(std::stoi(line));
     }
 
-    auto sums = calories | std::views::transform(
-                               [](auto elf_calories) {
-                                   return std::accumulate(
-                                       elf_calories.begin(), elf_calories.end(), 0);
-                               });
+    auto sums =
+        calories | std::views::transform(
+                       [](auto elf_calories)
+                       { return std::accumulate(elf_calories.begin(), elf_calories.end(), 0); });
     auto sums_vec = std::vector<int>(sums.begin(), sums.end());
     std::ranges::sort(sums_vec, std::ranges::greater());
     std::cout << "Part 1: " << sums_vec.front() << std::endl;

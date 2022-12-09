@@ -55,7 +55,7 @@ main() -> int
     auto file = std::ifstream();
     file.open("02/input.txt");
     assert(file.is_open());
-    auto        rounds = std::vector<std::pair<Shape, Shape>>();
+    auto rounds = std::vector<std::pair<Shape, Shape>>();
     std::string line;
     while (std::getline(file, line))
     {
