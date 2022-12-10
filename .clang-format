@@ -28,7 +28,7 @@ AlignAfterOpenBracket: Align
 
 SpaceBeforeParens: ControlStatements
 
-AllowShortFunctionsOnASingleLine: None
+AllowShortFunctionsOnASingleLine: true
 AllowShortBlocksOnASingleLine: Never
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortCaseLabelsOnASingleLine: true
