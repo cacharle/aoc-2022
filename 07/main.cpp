@@ -10,7 +10,7 @@
 
 struct Tree
 {
-    typedef std::map<std::string, Tree> Directory;
+    using Directory = std::map<std::string, Tree>;
     std::variant<size_t, Directory> actual;
     Tree *parent;
 
