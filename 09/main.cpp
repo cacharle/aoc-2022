@@ -3,7 +3,6 @@
 #include <fstream>
 #include <iostream>
 #include <ranges>
-#include <variant>
 #include <vector>
 
 struct Position
